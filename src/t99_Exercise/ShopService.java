@@ -1,4 +1,4 @@
-package t09_Exercise;
+package t99_Exercise;
 
 public class ShopService {
 	//2. 정적필드(자신의 객체타입)를 선언하고, 

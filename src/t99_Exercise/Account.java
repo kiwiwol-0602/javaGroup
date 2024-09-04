@@ -1,4 +1,4 @@
-package t09_Exercise;
+package t99_Exercise;
 
 public class Account {
 	static final int MIN_BALANCE = 0;
