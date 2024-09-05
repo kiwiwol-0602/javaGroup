@@ -6,6 +6,11 @@ public class T05Run {
 		
 		t5.areaCricle(10);
 		
+		t5.div(15, 4);
+		
+		t5.mul(5, 5);
+		
+		System.out.println("main 끝!");
 		
 	}
 }
