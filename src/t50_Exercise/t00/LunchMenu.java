@@ -1,7 +1,5 @@
 package t50_Exercise.t00;
 
-import javax.swing.Spring;
-
 public interface LunchMenu {
 
 	void rice(int i, String choice);
