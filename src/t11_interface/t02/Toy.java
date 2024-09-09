@@ -19,6 +19,7 @@ package t11_interface.t02;
 */
 public interface Toy {
 
+
 	void age();
 	void product(String name);
 	void moving();
@@ -26,5 +27,4 @@ public interface Toy {
 	void misaile();
 	
 	int possibleAge();
-	
 }

@@ -25,7 +25,7 @@ public class Tank implements Toy {
 	public int possibleAge() {
 		return age;
 	}
-
+	
 	@Override
 	public void product(String name) {
 		System.out.println("장난감 이름 : " + name);

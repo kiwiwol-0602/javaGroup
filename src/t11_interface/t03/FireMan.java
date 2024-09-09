@@ -11,13 +11,11 @@ public class FireMan implements Action {
 	@Override
 	public void fire() {
 		System.out.println("화재진압을 합니다.");
-		
 	}
 
 	@Override
 	public void rescue() {
 		System.out.println("인명구조를 합니다.");
-		
 	}
 
 	@Override
@@ -25,5 +23,4 @@ public class FireMan implements Action {
 
 	@Override
 	public void pasta() {}
-
 }
