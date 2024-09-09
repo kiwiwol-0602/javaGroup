@@ -1,16 +1,15 @@
 package t50_Exercise.t00;
 
+import javax.swing.Spring;
+
 public interface LunchMenu {
 
-	void rice();
-	void bulgogi();
-	void dubu();
-	void miyeok();
-	void yoplait();
-	void banana( );
-	void milk( );
-	void almond( );
-	
-	
-	
+	void rice(int i, String choice);
+	void bulgogi(int i, String choice);
+	void dubu(int i, String choice);
+	void miyeok(int i, String choice);
+	void yoplait(int i, String choice);
+	void banana(int i, String choice);
+	void milk(int i, String choice);
+	void almond(int i, String choice);
 }
