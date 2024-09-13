@@ -6,9 +6,8 @@ import java.sql.SQLException;
 
 public class Test2DAO {
 	Connection conn = null;
-	public Test2DAO() {
-		
-		
+	
+	public Test2DAO() {	
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			
@@ -16,14 +15,13 @@ public class Test2DAO {
 			String user = "atom";
 			String password = "1234";
 			conn = DriverManager.getConnection(ur1, user, password);
-			
  		} catch (ClassNotFoundException e) {
 			System.out.println("드라이버 검색 실패~~"+e.getMessage());
 		} catch (SQLException e) {
 			System.out.println("드라이버 연동 실패~~"+e.getMessage());
-			
 		}
 	}
+	
 	//DB연결 종료...
 	public void dbClose() {
 		try {

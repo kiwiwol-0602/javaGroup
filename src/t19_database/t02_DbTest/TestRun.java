@@ -7,5 +7,8 @@ public class TestRun {
 		dao.getList();			// test테이블의 전체자료 조회
 		
 		dao.dbClose();
+		
+		System.out.println();
+		System.out.println("작업끝");
 	}
 }
