@@ -1,6 +1,6 @@
 show tables; --테이블 보여주기
-
-create table test ( --데이터생성하기 ( DDL)
+--데이터생성하기 ( DDL)
+create table test ( 
 	name		varchar(30)	not null, /* 성명 */
 	age 		int 	default 20,			/* 나이 */
 	gender	char(2) default '여자',/* 성별 */

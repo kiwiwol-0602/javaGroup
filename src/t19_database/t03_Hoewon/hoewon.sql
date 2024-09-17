@@ -30,4 +30,4 @@ insert into hoewon values (default,'오자월',22,'여자',default,'제주');
 insert into hoewon values (default,'오이자월',22,'여자','2000-07-14','청주');
 insert into hoewon values (default,'김자월화',36,'여자',default,'청주');
 
-select * from hoewon;
+select * from hoewon;/*내용을 보려면 셀렉트*/
